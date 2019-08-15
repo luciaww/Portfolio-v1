@@ -1,0 +1,16 @@
+body{
+    background: #24292e;
+    color:white;
+}
+
+.navbar{
+    background: none;
+}
+
+#intro{
+    min-height: 300px;
+    margin: 0;
+    display: block;
+    align-content: center;
+    background: rgba(255, 230, 0, 0.774);
+}
