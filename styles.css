@@ -14,8 +14,15 @@ body{
 
 .col{
     background: orange;
+    display: block;
+    margin: 0;
+    align-content: center;
 }
 
-.fix{
-    max-height:50px;
+.card{
+    color: brown;
+}
+
+.card-body{
+    padding: 15px;
 }
