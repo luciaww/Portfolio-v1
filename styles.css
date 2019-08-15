@@ -9,8 +9,13 @@ body{
 
 #intro{
     min-height: 300px;
-    margin: 0;
-    display: block;
-    align-content: center;
     background: rgba(255, 230, 0, 0.774);
+}
+
+.col{
+    background: orange;
+}
+
+.fix{
+    max-height:50px;
 }
