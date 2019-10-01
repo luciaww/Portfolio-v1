@@ -13,9 +13,7 @@ const ProjectBody = props => {
                                 <div class="project-details">
                                     <p>{row.desc}</p>
                                     <ul>
-                                        <li>Shadow</li>
-                                        <li>Demon</li>
-                                        <li>Baby</li>
+                                        <li>{row.progs}</li>
                                     </ul>
                                 </div>
                             </div>
