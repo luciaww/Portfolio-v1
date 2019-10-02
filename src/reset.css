@@ -1,0 +1,14 @@
+@font-face {
+  font-family: GT;
+  src: url(./fonts/GTWalsheimProRegular.ttf);
+}
+body {
+  background-color: c_bkg;
+  font-family: GT;
+}
+
+p {
+  font-family: GT;
+}
+
+/*# sourceMappingURL=reset.css.map */

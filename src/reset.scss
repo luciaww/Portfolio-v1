@@ -1,0 +1,18 @@
+$c_bkg: #24292E;
+$c_bkg2: rgb(30, 29, 36);
+$c_accentBlue: #0073D1;
+$c_accentGreen: #64ffda;
+
+@font-face {
+    font-family: GT;
+    src: url(./fonts/GTWalsheimProRegular.ttf);
+  }
+
+body{
+    background-color: c_bkg;
+    font-family: GT;
+}
+
+p{
+    font-family: GT;
+}

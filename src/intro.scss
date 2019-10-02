@@ -1,0 +1,37 @@
+@import 'reset';
+
+
+
+p{
+    color: white;
+}
+
+.container2{
+    padding-top: 5%;
+    padding-left: 10%;
+  }
+
+.c3{
+    color: white;
+    font-size: 50pt;
+    padding-bottom:10px;
+}
+
+.c4{
+    padding-top: 10px;
+    width: 400px;
+    padding-bottom: 30px;
+}
+
+.c4 b{
+    color: $c_accentGreen;
+}
+
+.c10{
+    margin-left:-10%;
+}
+
+a{
+    color: $c_accentGreen;
+    letter-spacing: 3px;
+}

@@ -1,3 +1,16 @@
+@font-face {
+  font-family: GT;
+  src: url(./fonts/GTWalsheimProRegular.ttf);
+}
+body {
+  background-color: c_bkg;
+  font-family: GT;
+}
+
+p {
+  font-family: GT;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -26,7 +39,7 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: system, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   margin: 0;
-  background-color: #121212;
+  background-color: #24292E;
 }
 
 a {
@@ -106,7 +119,7 @@ img {
   color: #aaa;
 }
 .project-content .project-details p {
-  background-color: #252525;
+  background-color: #1e1d24;
   padding: 20px 25px;
 }
 @media (max-width: 600px) {
@@ -156,4 +169,4 @@ img {
   }
 }
 
-/*# sourceMappingURL=Project.css.map */
+/*# sourceMappingURL=project.css.map */

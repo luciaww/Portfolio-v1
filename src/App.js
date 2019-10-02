@@ -3,7 +3,7 @@ import Project from './Project'
 import Intro from './Intro'
 import './App.css';
 
-import h from './img/oke.jpg'
+import h from './img/tab.gif'
 import h2 from './img/h.png'
 import h3 from './img/h2.png'
 
