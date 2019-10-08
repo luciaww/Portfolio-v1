@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
-import Project from './Project'
-import Intro from './Intro'
+import React, {Component} from "react";
+import Project from './Project';
+import Intro from './Intro';
 import './App.css';
 
 import h from './img/tab.gif'
