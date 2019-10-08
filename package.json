@@ -13,12 +13,7 @@
   },
   "babel": {
     "presets": [
-      [
-        "env",
-        {
-          "modules": false
-        }
-      ],
+      "env",
       "react"
     ]
   },
