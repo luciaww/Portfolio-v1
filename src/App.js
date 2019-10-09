@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import ReactDOM from 'react-dom';
 import Project from './Project'
 import Intro from './Intro'
 import './App.css';
@@ -48,4 +49,7 @@ class App extends Component {
   }
 }
 
-export default App
+ReactDOM.render(
+	<App />,
+	document.getElementById('root')
+);
