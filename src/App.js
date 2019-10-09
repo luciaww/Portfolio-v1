@@ -1,6 +1,7 @@
-import React, {Component} from "react";
-import Project from './Project';
-import Intro from './Intro';
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom';
+import Project from './Project'
+import Intro from './Intro'
 import './App.css';
 
 import h from './img/tab.gif'
@@ -48,4 +49,7 @@ class App extends Component {
   }
 }
 
-export default App
+ReactDOM.render(
+	<App />,
+	document.getElementById('root')
+);
