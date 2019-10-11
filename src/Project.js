@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './Project.css';
-import Intro from './Intro'
 import './intro.css';
 
 const ProjectBody = props => {
