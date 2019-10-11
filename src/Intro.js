@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import './intro.css'
+import React, { Component } from 'react';
+import './intro.css';
 
 class Intro extends Component{
     render(){
