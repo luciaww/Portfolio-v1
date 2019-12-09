@@ -1,0 +1,46 @@
+@font-face {
+  font-family: GT;
+  src: url(./fonts/GTWalsheimProRegular.ttf);
+}
+body {
+  background-color: #24292E;
+  font-family: GT;
+}
+
+p {
+  font-family: GT;
+  color: white;
+}
+
+.container2 {
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.c3 {
+  color: white;
+  font-size: 50pt;
+  padding-bottom: 10px;
+}
+
+.c4 {
+  padding-top: 10px;
+  font-size: rem;
+  width: 400px;
+  padding-bottom: 30px;
+}
+
+.c4 b {
+  color: #64ffda;
+}
+
+.c10 {
+  margin-left: -10%;
+}
+
+a {
+  color: #64ffda;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=intro.css.map */
