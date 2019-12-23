@@ -1,0 +1,60 @@
+@import 'Reset';
+
+.main-wrap{
+    width: 85%;
+    margin: 0 auto;
+    
+}
+
+// ================================= TOP STUFF
+.top-wrap{
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    margin: 0 10px;
+}
+
+// ================================= INTRO
+.intro-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 100px 0px 0px 0px;
+}
+
+.introtext-wrap{
+    max-width: 66%;
+}
+
+.pic-wrap{
+    align-content: center;
+    margin: 0px 40px 0px 40px;
+
+}
+
+footer{
+    text-align: center;
+}
+
+// ================================= INTRO
+
+@media screen and (max-width: 500px) {
+
+    
+    .main-wrap{
+        margin: 10px 10px 0px 10px;
+    }
+
+    .logo-wrap{
+       display: none;
+    }
+    
+    .nav-wrap{
+    }
+}

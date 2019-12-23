@@ -1,0 +1,24 @@
+/* TEXT COLORS */
+$white1: #ffffff;
+$white2: #DEDEDE;
+$white3: #a6a6a6;
+
+/* GRAYS ......... 1 = lightest */
+$gray1: #444D56;
+$gray2: #2F363D;
+$gray3: #24292E;
+$gray4: #141414; 
+
+/* FONTS */
+@font-face {
+    font-family: GT;
+    src: url(../fonts/GTWalsheimProRegular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: GT;
+    src: url(../fonts/GTWalsheimProBold.ttf);
+    font-weight: bold;
+}
+

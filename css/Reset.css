@@ -1,0 +1,15 @@
+/* TEXT COLORS */
+/* GRAYS ......... 1 = lightest */
+/* FONTS */
+@font-face {
+  font-family: GT;
+  src: url(../fonts/GTWalsheimProRegular.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: GT;
+  src: url(../fonts/GTWalsheimProBold.ttf);
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=Reset.css.map */
