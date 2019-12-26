@@ -3,7 +3,7 @@
 .main-wrap{
     width: 85%;
     margin: 0 auto;
-    
+    min-width: 500px;
 }
 
 // ================================= TOP STUFF
@@ -44,9 +44,17 @@ footer{
 
 // ================================= INTRO
 
-@media screen and (max-width: 500px) {
 
-    
+
+// =============================
+//
+// FIXING FOR MOBILE SCREENS
+//
+// =============================
+@media screen and (max-width: 500px) {
+	.mobile-wrap{
+		width: 100%;
+	}
     .main-wrap{
         margin: 10px 10px 0px 10px;
     }
@@ -55,6 +63,11 @@ footer{
        display: none;
     }
     
-    .nav-wrap{
+    .nav-wrap {
+		@extend .mobile-wrap;
     }
+	
+	.name-wrap{
+		@extend .mobile-wrap;
+	}
 }
