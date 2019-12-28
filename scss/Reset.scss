@@ -7,23 +7,53 @@ $white3: #a6a6a6;
 $gray1: #444D56;
 $gray2: #2F363D;
 $gray3: #24292E;
-$gray4: #141414; 
+$gray4: #1E1D24;
+$gray5: #141414; 
+
+$purp: #D1B5FF;
+$purp2: #BB6BD9;
 
 /* FONTS */
 @font-face {
-    font-family: GT;
+    font-family: 'GT';
     src: url(../fonts/GTWalsheimProRegular.ttf);
     font-weight: normal;
 }
 
 @font-face {
-    font-family: GT;
+    font-family: 'GT';
     src: url(../fonts/GTWalsheimProBold.ttf);
     font-weight: bold;
 }
 
 html{
-	font-size: 100%;
+    font-size: 100%;
+    color: $white2;
+    background-color: $gray4;
+    font-family: 'GT';
+}
+
+a{
+    color: $purp;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+
+a:hover{
+    color: $purp2;
+}
+
+.active{
+    background-color: $purp;
+    color: $white1;
+}
+
+.active:hover{
+    color: $white1;
+}
+
+b{
+    color: $purp2;
 }
 
 @media (min-width: 640px) { body {font-size:1rem;} } 

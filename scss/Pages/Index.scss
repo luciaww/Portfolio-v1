@@ -1,23 +1,4 @@
-@import 'Reset';
-
-.main-wrap{
-    width: 85%;
-    margin: 0 auto;
-    min-width: 500px;
-}
-
-// ================================= TOP STUFF
-.top-wrap{
-    overflow: hidden;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-nav a{
-    margin: 0 10px;
-}
+@import '../../scss/Reset.scss';
 
 // ================================= INTRO
 .intro-wrap{

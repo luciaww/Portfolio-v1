@@ -2,17 +2,43 @@
 /* GRAYS ......... 1 = lightest */
 /* FONTS */
 @font-face {
-  font-family: GT;
+  font-family: "GT";
   src: url(../fonts/GTWalsheimProRegular.ttf);
   font-weight: normal;
 }
 @font-face {
-  font-family: GT;
+  font-family: "GT";
   src: url(../fonts/GTWalsheimProBold.ttf);
   font-weight: bold;
 }
 html {
   font-size: 100%;
+  color: #DEDEDE;
+  background-color: #1E1D24;
+  font-family: "GT";
+}
+
+a {
+  color: #D1B5FF;
+  text-decoration: none;
+  letter-spacing: 3px;
+}
+
+a:hover {
+  color: #BB6BD9;
+}
+
+.active {
+  background-color: #D1B5FF;
+  color: #ffffff;
+}
+
+.active:hover {
+  color: #ffffff;
+}
+
+b {
+  color: #BB6BD9;
 }
 
 @media (min-width: 640px) {
@@ -34,6 +60,7 @@ html {
   width: 85%;
   margin: 0 auto;
   min-width: 500px;
+  max-width: 1200px;
 }
 
 .top-wrap {
@@ -48,39 +75,8 @@ nav a {
   margin: 0 10px;
 }
 
-.intro-wrap {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  overflow: hidden;
-  padding: 100px 0px 0px 0px;
+.activeNav {
+  font-weight: bold;
 }
 
-.introtext-wrap {
-  max-width: 66%;
-}
-
-.pic-wrap {
-  align-content: center;
-  margin: 0px 40px 0px 40px;
-}
-
-footer {
-  text-align: center;
-}
-
-@media screen and (max-width: 500px) {
-  .mobile-wrap, .name-wrap, .nav-wrap {
-    width: 100%;
-  }
-
-  .main-wrap {
-    margin: 10px 10px 0px 10px;
-  }
-
-  .logo-wrap {
-    display: none;
-  }
-}
-
-/*# sourceMappingURL=Index.css.map */
+/*# sourceMappingURL=Nav.css.map */

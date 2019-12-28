@@ -1,0 +1,25 @@
+@import '../../scss/Reset.scss';
+
+// ================================= TOP STUFF
+.main-wrap{
+    width: 85%;
+    margin: 0 auto;
+    min-width: 500px;
+    max-width: 1200px;
+}
+
+.top-wrap{
+    overflow: hidden;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    margin: 0 10px;
+}
+
+.activeNav{
+    font-weight: bold;
+}

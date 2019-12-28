@@ -56,5 +56,39 @@ b {
     font-size: 1.5rem;
   }
 }
+.intro-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: 100px 0px 0px 0px;
+}
 
-/*# sourceMappingURL=Reset.css.map */
+.introtext-wrap {
+  max-width: 66%;
+}
+
+.pic-wrap {
+  align-content: center;
+  margin: 0px 40px 0px 40px;
+}
+
+footer {
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .mobile-wrap, .name-wrap, .nav-wrap {
+    width: 100%;
+  }
+
+  .main-wrap {
+    margin: 10px 10px 0px 10px;
+  }
+
+  .logo-wrap {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=Index.css.map */
