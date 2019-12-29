@@ -12,24 +12,24 @@
   font-weight: bold;
 }
 html {
-  font-size: 100%;
+  font-size: 0.8rem;
   color: #DEDEDE;
   background-color: #1E1D24;
   font-family: "GT";
 }
 
 a {
-  color: #D1B5FF;
+  color: #BB6BD9;
   text-decoration: none;
   letter-spacing: 3px;
 }
 
 a:hover {
-  color: #BB6BD9;
+  color: #D1B5FF;
 }
 
 .active {
-  background-color: #D1B5FF;
+  background-color: #BB6BD9;
   color: #ffffff;
 }
 
@@ -38,7 +38,7 @@ a:hover {
 }
 
 b {
-  color: #BB6BD9;
+  color: #ffffff;
 }
 
 @media (min-width: 640px) {
@@ -70,24 +70,24 @@ b {
   font-weight: bold;
 }
 html {
-  font-size: 100%;
+  font-size: 0.8rem;
   color: #DEDEDE;
   background-color: #1E1D24;
   font-family: "GT";
 }
 
 a {
-  color: #D1B5FF;
+  color: #BB6BD9;
   text-decoration: none;
   letter-spacing: 3px;
 }
 
 a:hover {
-  color: #BB6BD9;
+  color: #D1B5FF;
 }
 
 .active {
-  background-color: #D1B5FF;
+  background-color: #BB6BD9;
   color: #ffffff;
 }
 
@@ -96,7 +96,7 @@ a:hover {
 }
 
 b {
-  color: #BB6BD9;
+  color: #ffffff;
 }
 
 @media (min-width: 640px) {
@@ -153,7 +153,7 @@ ul, ol {
 }
 
 .proj {
-  margin: 30px;
+  margin: 30px 0px 30px 0px;
   display: grid;
   grid-gap: 10px;
   grid-template-columns: repeat(12, 1fr);
@@ -167,23 +167,23 @@ ul, ol {
   grid-row: 1/-1;
 }
 .p-inside .p-subtitle {
-  color: #BB6BD9;
+  color: #ffffff;
   font-family: monospace;
   font-size: 1rem;
 }
 .p-inside .p-title {
   font-size: 2rem;
   margin: 10px 0 30px;
-  color: #eee;
+  color: #ffffff;
 }
 .p-inside button {
   text-align: center;
   border: none;
-  display: block;
-  color: #D1B5FF;
+  color: #BB6BD9;
   padding: 10px 0px 10px 0px;
   margin-top: 10px;
   width: 100%;
+  background-color: #24292E;
 }
 .p-inside button:hover {
   cursor: pointer;
@@ -191,10 +191,10 @@ ul, ol {
 .p-inside .p-desc {
   font-size: 15px;
   line-height: 1.5;
-  color: #DEDEDE;
+  color: #a6a6a6;
 }
 .p-inside .p-desc p {
-  background-color: #2F363D;
+  background-color: #1E1D24;
   padding: 20px 25px 10px 25px;
 }
 .p-inside .p-desc ul {
@@ -203,7 +203,7 @@ ul, ol {
 }
 .p-inside .p-desc ul li {
   margin-right: 20px;
-  color: #aaa;
+  color: #a6a6a6;
   font-family: monospace;
 }
 
@@ -247,24 +247,24 @@ ul, ol {
   font-weight: bold;
 }
 html {
-  font-size: 100%;
+  font-size: 0.8rem;
   color: #DEDEDE;
   background-color: #1E1D24;
   font-family: "GT";
 }
 
 a {
-  color: #D1B5FF;
+  color: #BB6BD9;
   text-decoration: none;
   letter-spacing: 3px;
 }
 
 a:hover {
-  color: #BB6BD9;
+  color: #D1B5FF;
 }
 
 .active {
-  background-color: #D1B5FF;
+  background-color: #BB6BD9;
   color: #ffffff;
 }
 
@@ -273,7 +273,7 @@ a:hover {
 }
 
 b {
-  color: #BB6BD9;
+  color: #ffffff;
 }
 
 @media (min-width: 640px) {
@@ -295,7 +295,7 @@ b {
   width: 85%;
   margin: 0 auto;
   min-width: 500px;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .top-wrap {

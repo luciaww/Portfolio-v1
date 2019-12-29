@@ -12,24 +12,24 @@
   font-weight: bold;
 }
 html {
-  font-size: 100%;
+  font-size: 0.8rem;
   color: #DEDEDE;
   background-color: #1E1D24;
   font-family: "GT";
 }
 
 a {
-  color: #D1B5FF;
+  color: #BB6BD9;
   text-decoration: none;
   letter-spacing: 3px;
 }
 
 a:hover {
-  color: #BB6BD9;
+  color: #D1B5FF;
 }
 
 .active {
-  background-color: #D1B5FF;
+  background-color: #BB6BD9;
   color: #ffffff;
 }
 
@@ -38,7 +38,7 @@ a:hover {
 }
 
 b {
-  color: #BB6BD9;
+  color: #ffffff;
 }
 
 @media (min-width: 640px) {
@@ -60,7 +60,7 @@ b {
   width: 85%;
   margin: 0 auto;
   min-width: 500px;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .top-wrap {

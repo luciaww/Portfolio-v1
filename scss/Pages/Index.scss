@@ -42,7 +42,7 @@ ul, ol {
 }
 
 .proj {
-    margin: 30px;
+    margin: 30px 0px 30px 0px;
     display: grid;
     grid-gap: 10px;
     grid-template-columns: repeat(12, 1fr);
@@ -56,25 +56,24 @@ ul, ol {
     grid-row: 1 / -1;
 
     .p-subtitle {
-        color: $purp2;
+        color: $white1;
         font-family: monospace;
         font-size: 1rem;
     }
     .p-title {
         font-size: 2rem;
         margin: 10px 0 30px;
-        color: #eee;
+        color: $white1
     }
 
     button {
         text-align: center;
-        background-color: #252525;
         border: none;
-        display: block;
         color: $purp;
         padding: 10px 0px 10px 0px;
         margin-top: 10px;
         width: 100%;
+        background-color: $gray3;
     }
     button:hover{
         cursor: pointer;
@@ -83,10 +82,10 @@ ul, ol {
     .p-desc {
         font-size: 15px;
         line-height: 1.5;
-        color: $white2;
+        color: $white3;
 
         p {
-        background-color: #252525;
+        background-color: $gray4;
         padding: 20px 25px 10px 25px;
         }
 
@@ -96,7 +95,7 @@ ul, ol {
 
             li {
                 margin-right: 20px;
-                color: #aaa;
+                color: $white3;
                 font-family: monospace;
             }
         }
