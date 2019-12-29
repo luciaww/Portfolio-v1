@@ -24,11 +24,6 @@ footer{
 }
 
 // ================================= PROJECTS
-a {
-    text-decoration: none;
-    text-decoration-skip-ink: auto;
-}
-
 ul, ol {
     padding: 0;
     margin: 0;
@@ -50,6 +45,19 @@ ul, ol {
     align-items: center;
 }
 
+button {
+    text-align: center;
+    border: none;
+    color: $purp;
+    padding: 10px 0px 10px 0px;
+    margin-top: 10px;
+    width: 100%;
+    background-color: $gray3;
+}
+button:hover{
+    cursor: pointer;
+}
+
 .p-inside {
     position: relative;
     grid-column: 1 / 7;
@@ -64,19 +72,6 @@ ul, ol {
         font-size: 2rem;
         margin: 10px 0 30px;
         color: $white1
-    }
-
-    button {
-        text-align: center;
-        border: none;
-        color: $purp;
-        padding: 10px 0px 10px 0px;
-        margin-top: 10px;
-        width: 100%;
-        background-color: $gray3;
-    }
-    button:hover{
-        cursor: pointer;
     }
 
     .p-desc {
