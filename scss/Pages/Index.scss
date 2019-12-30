@@ -6,7 +6,7 @@
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
-    padding: 100px 0px 0px 0px;
+    padding: 100px 0px 50px 100px;
 }
 
 .introtext-wrap{
@@ -17,6 +17,11 @@
     align-content: center;
     margin: 0px 40px 0px 40px;
 
+}
+
+.ope{
+    border: 2px solid $gray1;
+    margin-bottom: 50px;
 }
 
 footer{
@@ -32,7 +37,7 @@ ul, ol {
 
 .proj-wrap {
     max-width: 1000px;
-    margin: auto;
+    margin: 100px auto 50px auto;
     align-content: center;
 }
 
@@ -46,16 +51,19 @@ ul, ol {
 }
 
 button {
-    text-align: center;
+    text-align: left;
     border: none;
     color: $purp;
     padding: 10px 0px 10px 0px;
-    margin-top: 10px;
     width: 100%;
-    background-color: $gray3;
+    background-color: $gray5;
+    font-family: 'GT';
+    font-size: 15px;
+    letter-spacing: 1.5px;
 }
 button:hover{
     cursor: pointer;
+    color: $purp2;
 }
 
 .p-inside {
@@ -63,35 +71,39 @@ button:hover{
     grid-column: 1 / 7;
     grid-row: 1 / -1;
 
-    .p-subtitle {
-        color: $white1;
-        font-family: monospace;
-        font-size: 1rem;
+    .p-subtitle { //subtitle
+        color: $purp2;
+        font-family: 'Mont';
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
     }
-    .p-title {
-        font-size: 2rem;
-        margin: 10px 0 30px;
+    .p-title { //actual title
+        font-size: 30px;
+        margin: 1px 0 25px;
         color: $white1
     }
 
     .p-desc {
         font-size: 15px;
         line-height: 1.5;
-        color: $white3;
+        color: $white2;
 
-        p {
-        background-color: $gray4;
+        p { //box color
+        background-color: $gray5;
         padding: 20px 25px 10px 25px;
         }
 
         ul {
         display: flex;
-        margin-top: 20px;
+        margin-top: 10px;
+        font-size: 1rem;
 
             li {
                 margin-right: 20px;
                 color: $white3;
-                font-family: monospace;
+                font-family: 'Mont';
+                letter-spacing: 1px;
             }
         }
     }
@@ -112,6 +124,46 @@ button:hover{
   }
 }
 
+#projSeeMore{
+    background-color: $gray4;
+}
+
+// ================================= PROJECTS
+.extra-wrap{
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.extra {
+    margin: 30px 0px 30px 0px;
+    max-width: 1000px;
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    position: relative;
+}
+
+.ex1 img, .ex2 img{
+    width: 100%;
+}
+
+.ex3 img{
+    height: 100%;
+}
+
+.ex1{
+    grid-column: 1/2;
+
+}
+.ex2{
+    grid-column: 2/3;
+}
+
+.ex3{
+    grid-column: span 1;
+
+}
 
 
 // =============================

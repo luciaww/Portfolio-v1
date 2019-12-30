@@ -11,6 +11,16 @@
   src: url(../fonts/GTWalsheimProBold.ttf);
   font-weight: bold;
 }
+@font-face {
+  font-family: "DIN";
+  src: url(../fonts/DIN.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Mont";
+  src: url(../fonts/Montserrat-Medium.otf);
+  font-weight: bold;
+}
 html {
   font-size: 0.8rem;
   color: #DEDEDE;

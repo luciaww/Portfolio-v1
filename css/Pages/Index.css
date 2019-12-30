@@ -11,6 +11,16 @@
   src: url(../fonts/GTWalsheimProBold.ttf);
   font-weight: bold;
 }
+@font-face {
+  font-family: "DIN";
+  src: url(../fonts/DIN.ttf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Mont";
+  src: url(../fonts/Montserrat-Medium.otf);
+  font-weight: bold;
+}
 html {
   font-size: 0.8rem;
   color: #DEDEDE;
@@ -61,7 +71,7 @@ b {
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
-  padding: 100px 0px 0px 0px;
+  padding: 100px 0px 50px 100px;
 }
 
 .introtext-wrap {
@@ -71,6 +81,11 @@ b {
 .pic-wrap {
   align-content: center;
   margin: 0px 40px 0px 40px;
+}
+
+.ope {
+  border: 2px solid #444D56;
+  margin-bottom: 50px;
 }
 
 footer {
@@ -85,7 +100,7 @@ ul, ol {
 
 .proj-wrap {
   max-width: 1000px;
-  margin: auto;
+  margin: 100px auto 50px auto;
   align-content: center;
 }
 
@@ -99,17 +114,20 @@ ul, ol {
 }
 
 button {
-  text-align: center;
+  text-align: left;
   border: none;
   color: #BB6BD9;
   padding: 10px 0px 10px 0px;
-  margin-top: 10px;
   width: 100%;
-  background-color: #24292E;
+  background-color: #141414;
+  font-family: "GT";
+  font-size: 15px;
+  letter-spacing: 1.5px;
 }
 
 button:hover {
   cursor: pointer;
+  color: #D1B5FF;
 }
 
 .p-inside {
@@ -118,32 +136,36 @@ button:hover {
   grid-row: 1/-1;
 }
 .p-inside .p-subtitle {
-  color: #ffffff;
-  font-family: monospace;
-  font-size: 1rem;
+  color: #D1B5FF;
+  font-family: "Mont";
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 .p-inside .p-title {
-  font-size: 2rem;
-  margin: 10px 0 30px;
+  font-size: 30px;
+  margin: 1px 0 25px;
   color: #ffffff;
 }
 .p-inside .p-desc {
   font-size: 15px;
   line-height: 1.5;
-  color: #a6a6a6;
+  color: #DEDEDE;
 }
 .p-inside .p-desc p {
-  background-color: #1E1D24;
+  background-color: #141414;
   padding: 20px 25px 10px 25px;
 }
 .p-inside .p-desc ul {
   display: flex;
-  margin-top: 20px;
+  margin-top: 10px;
+  font-size: 1rem;
 }
 .p-inside .p-desc ul li {
   margin-right: 20px;
   color: #a6a6a6;
-  font-family: monospace;
+  font-family: "Mont";
+  letter-spacing: 1px;
 }
 
 .p-img {
@@ -157,6 +179,45 @@ button:hover {
   border-radius: 2px;
   position: relative;
   max-width: 100%;
+}
+
+#projSeeMore {
+  background-color: #1E1D24;
+}
+
+.extra-wrap {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.extra {
+  margin: 30px 0px 30px 0px;
+  max-width: 1000px;
+  display: grid;
+  grid-column-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  position: relative;
+}
+
+.ex1 img, .ex2 img {
+  width: 100%;
+}
+
+.ex3 img {
+  height: 100%;
+}
+
+.ex1 {
+  grid-column: 1/2;
+}
+
+.ex2 {
+  grid-column: 2/3;
+}
+
+.ex3 {
+  grid-column: span 1;
 }
 
 @media screen and (max-width: 500px) {
