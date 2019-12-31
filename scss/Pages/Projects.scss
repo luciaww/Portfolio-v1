@@ -1,0 +1,123 @@
+@import '../../scss/Reset.scss';
+
+//======== MENU =========
+
+#menu {
+    font-family: 'Mont';
+    position: fixed;
+    top: 50%;
+    margin-top: -2.5em;
+    z-index: -1;
+    font-size: 15px;
+    li a{
+        color: $green;
+        letter-spacing: 1px;
+        line-height: 1.5
+    }
+
+    li a :before{
+        content:"//";
+    }
+}
+
+//======== PROJECT TEXT WRAP ==========
+.projectText-wrap{
+    margin-left: 15%;
+}
+
+
+//======== FINAL PROJ DISPLAY =========
+.finalDisplay{
+    width: 100%;
+    background-color: $gray5;   
+    padding: 20px 0px 20px 0;
+}
+
+.proj-wrap2 {
+    max-width: 1000px;
+    width: 85%;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.p-inside2 {
+    position: relative;
+    grid-column: 1 / 6;
+    grid-row: 1 / -1;
+
+    .p-subtitle { //subtitle
+        color: $purp2;
+        font-family: 'Mont';
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .p-title { //actual title
+        font-size: 30px;
+        margin: 1px 0 25px;
+        color: $white1
+    }
+
+    .p-desc {
+        font-size: 15px;
+        color: $white2;
+        p{
+            margin: 0;
+        }       
+        ul {
+            margin-bottom: 20px;
+            list-style-position: inside;
+            li {
+                color: $white2;
+            }
+            li:before {
+                content: ">\00a0\00a0";
+                margin-left: 10px;
+                font-size: 10px;
+                color: $white3;
+            }
+            li span {
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+
+        ul .oneline{
+            display: flex;
+            list-style-position: inside;
+
+            li:before {
+                content: "//";
+                font-size: 15px;
+                color: $white3;
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 10px;
+            }
+
+            li span {
+                display: inline-block;
+                vertical-align: middle;
+            }
+            
+            #first li:before {
+                content: ">\00a0\00a0";
+                margin-left: 10px;
+                margin-right: 0px;
+                font-size: 10px;
+                color: $white3;
+            }
+        }
+
+    }
+}
+
+.sub{
+    color: $white3;
+    font-family: 'Mont';
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}

@@ -28,6 +28,11 @@ html {
   font-family: "GT";
 }
 
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
 a {
   color: #BB6BD9;
   text-decoration: none;

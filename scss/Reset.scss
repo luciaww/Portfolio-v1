@@ -12,6 +12,7 @@ $gray5: #141414;
 
 $purp: #BB6BD9;
 $purp2: #D1B5FF;
+$green: #7AEB8C;
 
 /* FONTS */
 @font-face {
@@ -43,6 +44,11 @@ html{
     color: $white2;
     background-color: $gray4;
     font-family: 'GT';
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
 }
 
 a{
