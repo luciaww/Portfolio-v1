@@ -12,14 +12,39 @@
   font-weight: bold;
 }
 @font-face {
-  font-family: "DIN";
-  src: url(../fonts/DIN.ttf);
+  font-family: "Mont";
+  src: url(../fonts/Montserrat-Normal.otf);
   font-weight: normal;
 }
 @font-face {
   font-family: "Mont";
-  src: url(../fonts/Montserrat-Medium.otf);
+  src: url(../fonts/Montserrat-Bold.otf);
   font-weight: bold;
+}
+@font-face {
+  font-family: "Mont";
+  src: url(../fonts/Montserrat-SemiBold.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Mont";
+  src: url(../fonts/Montserrat-ExtraBold.otf);
+  font-weight: bolder;
+}
+@font-face {
+  font-family: "Mont";
+  src: url(../fonts/Montserrat-Black.otf);
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Mont";
+  src: url(../fonts/Montserrat-Light.otf);
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "Mont";
+  src: url(../fonts/Montserrat-Thin.otf);
+  font-weight: 100;
 }
 html {
   font-size: 0.8rem;
@@ -54,6 +79,14 @@ a:hover {
 
 b {
   color: #ffffff;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 @media (min-width: 640px) {
@@ -185,6 +218,7 @@ button:hover {
   border-radius: 2px;
   position: relative;
   max-width: 100%;
+  vertical-align: middle;
 }
 
 #projSeeMore {

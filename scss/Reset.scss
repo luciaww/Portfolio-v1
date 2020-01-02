@@ -2,6 +2,7 @@
 $white1: #ffffff;
 $white2: #DEDEDE;
 $white3: #a6a6a6;
+$white4: rgb(207, 207, 207);
 
 /* GRAYS ......... 1 = lightest */
 $gray1: #444D56;
@@ -28,16 +29,42 @@ $green: #7AEB8C;
 }
 
 @font-face {
-    font-family: 'DIN';
-    src: url(../fonts/DIN.ttf);
+    font-family: 'Mont';
+    src: url(../fonts/Montserrat-Normal.otf);
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Mont';
-    src: url(../fonts/Montserrat-Medium.otf);
+    src: url(../fonts/Montserrat-Bold.otf);
     font-weight: bold;
 }
+@font-face {
+    font-family: 'Mont';
+    src: url(../fonts/Montserrat-SemiBold.otf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Mont';
+    src: url(../fonts/Montserrat-ExtraBold.otf);
+    font-weight: bolder;
+}
+@font-face {
+    font-family: 'Mont';
+    src: url(../fonts/Montserrat-Black.otf);
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'Mont';
+    src: url(../fonts/Montserrat-Light.otf);
+    font-weight: lighter;
+}
+@font-face {
+    font-family: 'Mont';
+    src: url(../fonts/Montserrat-Thin.otf);
+    font-weight: 100;
+}
+
 
 html{
     font-size: .8rem;
@@ -72,6 +99,14 @@ a:hover{
 
 b{
     color: $white1;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
 
 @media (min-width: 640px) { body {font-size:1rem;} } 
