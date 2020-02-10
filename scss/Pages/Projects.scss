@@ -1,7 +1,6 @@
 @import '../../scss/Reset.scss';
 
 //======== MENU =========
-
 #menu {
     visibility: hidden;
     font-family: 'Mont';
@@ -26,36 +25,47 @@
     max-width: 800px;
     min-width: 500px;
     color: $white4;
-    margin-left: 15%;
-    line-height: 1.5;
-    font-size: 18px;
+    margin: 0 auto;
     align-content: center;
     font-family: 'PT Serif regular';
+    
+    font-size: 1em;
+    line-height: 1.618em;
+    margin-bottom: 1.618em;
+    margin-top: 0;
+    clear: both;
+    
 
     h1{
         color:$white1;
-        text-align: center;
-        font-size: 30px;
+        font-size: 2em;
+        line-height: 1.05em;
         font-family: 'Mont';
-        margin: 4rem auto 2rem auto;
+        margin: 6rem auto 2rem auto;
     }
     h2{
-        font-size: 20px;
+        font-size: 1.3em;
+        line-height: 1.15em;
         font-family: 'Mont';
         font-weight: 600;
         margin: 4rem auto 1rem auto;
-        max-width: 600px;
-        color: $white1;
+        color: $purp2;
     }
     b{
         color:$purp2;
         font-weight: 400;
     }
     p{
-        max-width: 600px;
         margin: auto auto 1rem auto;
     }
-
+    .imgwrap{
+        width: 100%;
+        text-align: center;
+    }
+    img{
+        max-width:100%;
+        max-height:100%;
+    }
 }
 
 .mid{
@@ -84,9 +94,8 @@
     grid-gap: 5%;
     grid-row-gap: 3rem;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: auto auto;
     grid-template-areas: "a b" "c d";
-    max-width: 600px;
     margin: 2rem auto 4rem auto;
     align-content: center;
     .a{
@@ -117,15 +126,9 @@
     }
 }
 
-
-
-
-
-
 //======== FINAL PROJ DISPLAY =========
 .finalDisplay{
     width: 100%;
-    background-color: $gray5;   
     padding: 20px 0px 20px 0;
 }
 
@@ -136,54 +139,48 @@
     align-content: center;
 }
 
-.proj2 {
-    margin: 30px 0px 30px 0px;
-    display: grid;
-    grid-gap: 10%;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 1fr;
-    align-items: center;
-}
-
-.p-inside2 {
-    position: relative;
-    grid-column: 1 / 6;
-
+.p3{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     .p-subtitle { //subtitle
         color: $purp2;
         font-family: 'Mont';
-        font-size: 12px;
+        font-size: 16px;
         letter-spacing: 1px;
         text-transform: uppercase;
         margin-top: 4rem;
+        text-align: center;
     }
-
+    
     .p-title { //actual title
-        font-size: 30px;
+        font-size: 50px;
         margin: 1px 0 4rem;
         color: $white1;
+        text-align: center;
     }
 }
 
-.bullets{
-    ul {
-        margin-bottom: 20px;
-        list-style-position: inside;
-        li {
-            color: $white2;
-        }
-        li:before {
-            content: ">\00a0\00a0";
-            margin-left: 10px;
-            font-size: 10px;
-            color: $white3;
-        }
-        li span {
-            display: inline-block;
-        }
-    }
+.proj2 {
+    margin: 30px 0px 30px 0px;
+    display: grid;
+    grid-gap: 5%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
 }
 
+.fit{
+    max-height: auto;
+    max-width: 100%;  
+}
+
+.p2 {
+    position: relative;
+    grid-column: 1;
+}
+
+.p-img2{
+    grid-column: 2/4;
+}
 
 .sub{
     color: $white3;

@@ -29,16 +29,16 @@ footer{
 }
 
 // ================================= PROJECTS
-ul, ol {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
 .proj-wrap {
     max-width: 1000px;
     margin: 100px auto 50px auto;
     align-content: center;
+    
+    ul, ol {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
 }
 
 .proj {
@@ -131,41 +131,40 @@ button:hover{
 }
 
 // ================================= PROJECTS
-.extra-wrap{
-    max-height: 300px;
-    overflow: hidden;
-}
-
 .extra {
-    margin: 30px 0px 30px 0px;
+    margin: 30px;
     max-width: 1000px;
     display: grid;
     grid-column-gap: 20px;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    position: relative;
+
+    img {
+        display: block;
+        max-width: 100%;
+        width: auto;
+        height: auto;
+    }
+
+    .c1{grid-column: 1;}
+    .c2{grid-column: 2;}
+    .c3{grid-column: 3;}
+
+    .flexes{
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+
+        img{
+            max-width: 100%;
+            border-radius: 3px;
+        }
+
+        .end{
+            margin-bottom: 30px;
+        }
+    }
 }
 
-.ex1 img, .ex2 img{
-    width: 100%;
-}
-
-.ex3 img{
-    height: 100%;
-}
-
-.ex1{
-    grid-column: 1/2;
-
-}
-.ex2{
-    grid-column: 2/3;
-}
-
-.ex3{
-    grid-column: span 1;
-
-}
 
 
 // =============================
