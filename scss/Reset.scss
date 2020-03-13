@@ -16,70 +16,32 @@ $purp2: #D1B5FF;
 $green: #7AEB8C;
 
 
-
+/* FONTS */
 @font-face {
-    font-family: 'PN';
+    font-family: 'Averta';
     src: url(../fonts/Averta-Regular.otf);
     font-weight: normal;
 }
 
 @font-face {
+    font-family: 'Averta';
+    src: url(../fonts/Averta-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
     font-family: 'PN';
-    src: url(../fonts/ProximaNova-Bold.otf.otf.otf);
-    font-weight: bold;
-}
-
-
-
-/* FONTS */
-@font-face {
-    font-family: 'GT';
-    src: url(../fonts/GTWalsheimProRegular.ttf);
+    src: url(../fonts/ProximaNova-Regular.otf);
     font-weight: normal;
 }
 
 @font-face {
-    font-family: 'GT';
-    src: url(../fonts/GTWalsheimProBold.ttf);
+    font-family: 'PN';
+    src: url(../fonts/ProximaNova-Bold.otf);
     font-weight: bold;
 }
 
-@font-face {
-    font-family: 'Mont';
-    src: url(../fonts/Montserrat-Normal.otf);
-    font-weight: normal;
-}
 
-@font-face {
-    font-family: 'Mont';
-    src: url(../fonts/Montserrat-Bold.otf);
-    font-weight: bold;
-}
-@font-face {
-    font-family: 'Mont';
-    src: url(../fonts/Montserrat-SemiBold.otf);
-    font-weight: 500;
-}
-@font-face {
-    font-family: 'Mont';
-    src: url(../fonts/Montserrat-ExtraBold.otf);
-    font-weight: bolder;
-}
-@font-face {
-    font-family: 'Mont';
-    src: url(../fonts/Montserrat-Black.otf);
-    font-weight: 900;
-}
-@font-face {
-    font-family: 'Mont';
-    src: url(../fonts/Montserrat-Light.otf);
-    font-weight: lighter;
-}
-@font-face {
-    font-family: 'Mont';
-    src: url(../fonts/Montserrat-Thin.otf);
-    font-weight: 100;
-}
 
 
 html{

@@ -1,60 +1,25 @@
 /* TEXT COLORS */
 /* GRAYS ......... 1 = lightest */
+/* FONTS */
 @font-face {
-  font-family: "PN";
+  font-family: "Averta";
   src: url(../fonts/Averta-Regular.otf);
   font-weight: normal;
 }
 @font-face {
+  font-family: "Averta";
+  src: url(../fonts/Averta-Bold.otf);
+  font-weight: bold;
+}
+@font-face {
   font-family: "PN";
-  src: url(../fonts/ProximaNova-Black.otf);
-  font-weight: bold;
-}
-/* FONTS */
-@font-face {
-  font-family: "GT";
-  src: url(../fonts/GTWalsheimProRegular.ttf);
+  src: url(../fonts/ProximaNova-Regular.otf);
   font-weight: normal;
 }
 @font-face {
-  font-family: "GT";
-  src: url(../fonts/GTWalsheimProBold.ttf);
+  font-family: "PN";
+  src: url(../fonts/ProximaNova-Bold.otf);
   font-weight: bold;
-}
-@font-face {
-  font-family: "Mont";
-  src: url(../fonts/Montserrat-Normal.otf);
-  font-weight: normal;
-}
-@font-face {
-  font-family: "Mont";
-  src: url(../fonts/Montserrat-Bold.otf);
-  font-weight: bold;
-}
-@font-face {
-  font-family: "Mont";
-  src: url(../fonts/Montserrat-SemiBold.otf);
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Mont";
-  src: url(../fonts/Montserrat-ExtraBold.otf);
-  font-weight: bolder;
-}
-@font-face {
-  font-family: "Mont";
-  src: url(../fonts/Montserrat-Black.otf);
-  font-weight: 900;
-}
-@font-face {
-  font-family: "Mont";
-  src: url(../fonts/Montserrat-Light.otf);
-  font-weight: lighter;
-}
-@font-face {
-  font-family: "Mont";
-  src: url(../fonts/Montserrat-Thin.otf);
-  font-weight: 100;
 }
 html {
   font-size: 0.8rem;
@@ -121,6 +86,19 @@ p {
   overflow: hidden;
   padding: 25px 25px 50px 25px;
 }
+.intro-wrap b {
+  text-decoration: underline;
+  font-weight: normal;
+}
+.intro-wrap .name-wrap p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+.intro-wrap .name-wrap h1 {
+  font-family: "Averta";
+  font-weight: bold;
+  margin: 0;
+}
 
 .introtext-wrap {
   max-width: 66%;
@@ -167,7 +145,7 @@ button {
   padding: 10px 0px 10px 0px;
   width: 100%;
   background-color: #141414;
-  font-family: "GT";
+  font-family: "PN";
   font-size: 15px;
   letter-spacing: 1.5px;
 }
@@ -185,15 +163,17 @@ button:hover {
 }
 .p-inside .p-subtitle {
   color: #D1B5FF;
-  font-family: "Mont";
+  font-family: "Averta";
   font-size: 12px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin-bottom: 3px;
 }
 .p-inside .p-title {
   font-size: 30px;
   margin: 1px 0 25px;
   color: #ffffff;
+  font-family: "Averta";
 }
 .p-inside .p-desc {
   font-size: 15px;
@@ -212,7 +192,7 @@ button:hover {
 .p-inside .p-desc ul li {
   margin-right: 20px;
   color: #a6a6a6;
-  font-family: "Mont";
+  font-family: "PN";
   letter-spacing: 1px;
 }
 

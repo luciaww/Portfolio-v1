@@ -7,6 +7,21 @@
     justify-content: space-between;
     overflow: hidden;
     padding: 25px 25px 50px 25px;
+    b{
+        text-decoration: underline;
+        font-weight: normal;
+    }
+    .name-wrap{
+        p{
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        h1{
+            font-family: 'Averta';
+            font-weight: bold;
+            margin: 0;
+        }
+    }
 }
 
 .introtext-wrap{
@@ -57,7 +72,7 @@ button {
     padding: 10px 0px 10px 0px;
     width: 100%;
     background-color: $gray5;
-    font-family: 'GT';
+    font-family: 'PN';
     font-size: 15px;
     letter-spacing: 1.5px;
 }
@@ -74,15 +89,17 @@ button:hover{
 
     .p-subtitle { //subtitle
         color: $purp2;
-        font-family: 'Mont';
+        font-family: 'Averta';
         font-size: 12px;
         letter-spacing: 1px;
         text-transform: uppercase;
+        margin-bottom: 3px;
     }
     .p-title { //actual title
         font-size: 30px;
         margin: 1px 0 25px;
-        color: $white1
+        color: $white1;
+        font-family: 'Averta';
     }
 
     .p-desc {
@@ -103,7 +120,7 @@ button:hover{
             li {
                 margin-right: 20px;
                 color: $white3;
-                font-family: 'Mont';
+                font-family: 'PN';
                 letter-spacing: 1px;
             }
         }
