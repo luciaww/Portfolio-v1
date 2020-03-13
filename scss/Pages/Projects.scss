@@ -3,7 +3,7 @@
 //======== MENU =========
 #menu {
     visibility: hidden;
-    font-family: 'Mont';
+    font-family: 'PN';
     position: fixed;
     top: 50%;
     margin-top: -2.5em;
@@ -40,7 +40,8 @@
         color:$white1;
         font-size: 2em;
         line-height: 1.05em;
-        font-family: 'Mont';
+        font-family: 'PN';
+        font-weight: bold;
         margin: 6rem auto 2rem auto;
     }
     h2{

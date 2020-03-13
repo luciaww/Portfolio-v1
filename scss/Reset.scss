@@ -15,6 +15,22 @@ $purp: #BB6BD9;
 $purp2: #D1B5FF;
 $green: #7AEB8C;
 
+
+
+@font-face {
+    font-family: 'PN';
+    src: url(../fonts/Averta-Regular.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'PN';
+    src: url(../fonts/ProximaNova-Bold.otf.otf.otf);
+    font-weight: bold;
+}
+
+
+
 /* FONTS */
 @font-face {
     font-family: 'GT';
@@ -70,7 +86,7 @@ html{
     font-size: .8rem;
     color: $white2;
     background-color: $gray4;
-    font-family: 'GT';
+    font-family: 'PN';
 }
 
 body {

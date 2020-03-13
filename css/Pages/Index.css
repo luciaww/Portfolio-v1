@@ -1,5 +1,15 @@
 /* TEXT COLORS */
 /* GRAYS ......... 1 = lightest */
+@font-face {
+  font-family: "PN";
+  src: url(../fonts/Averta-Regular.otf);
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PN";
+  src: url(../fonts/ProximaNova-Black.otf);
+  font-weight: bold;
+}
 /* FONTS */
 @font-face {
   font-family: "GT";
@@ -50,7 +60,7 @@ html {
   font-size: 0.8rem;
   color: #DEDEDE;
   background-color: #1E1D24;
-  font-family: "GT";
+  font-family: "PN";
 }
 
 body {
@@ -109,7 +119,7 @@ p {
   align-items: center;
   justify-content: space-between;
   overflow: hidden;
-  padding: 20px 0px 50px 100px;
+  padding: 25px 25px 50px 25px;
 }
 
 .introtext-wrap {
